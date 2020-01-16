@@ -35,7 +35,7 @@ import GallerySwiper from 'react-native-gallery-swiper';
         setImageTest(foo);
         }
       })
-  }, [])
+  }, []);
 
   function saveToFavorites(event) {
     console.log('event', event);
